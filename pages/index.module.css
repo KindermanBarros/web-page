@@ -1,0 +1,90 @@
+.bigblue {
+    color: DodgerBlue;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+.gay{
+    color:red;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottomLeft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .topLeft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .topRight {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottomRight {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header{
+      font-family: "Futura PT", serif;
+      color: gold;
+      text-align: left;
+      font-size: 50px;
+
+  }
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../futura-webkit/FuturaPT-Bold.woff') format('woff'),
+    url('../futura-webkit/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../futura-webkit/FuturaPT-Light.woff') format('woff'),
+    url('../futura-webkit/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../futura-webkit/FuturaPT-Medium.woff') format('woff'),
+    url('../futura-webkit/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
