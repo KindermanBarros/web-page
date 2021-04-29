@@ -2,7 +2,7 @@ import "./index.module.css";
 
 function Home() {
   return (
-    <div>
+    <div className = {"div"}>
       <title>Projeto</title>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,7 +16,7 @@ function Home() {
       </style>
 
       <body class="w3-light-grey">
-        <div class="w3-content" style="max-width:1400px">
+        <div className = {"div"} class="w3-content" style="max-width:1400px">
           <header class="w3-container w3-center w3-padding-32">
             <h1>
               <b>Projeto Integrador</b>
@@ -26,15 +26,15 @@ function Home() {
             </p>
           </header>
 
-          <div class="w3-row">
-            <div class="w3-col l8 s12">
-              <div class="w3-card-4 w3-margin w3-white">
+          <div className = {"div"} class="w3-row">
+            <div className = {"div"} class="w3-col l8 s12">
+              <div className = {"div"} class="w3-card-4 w3-margin w3-white">
                 <img
                   src="/w3images/woods.jpg"
                   alt="Nature"
                   style="width:100%"
                 />
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <h3>
                     <b>Introdução</b>
                   </h3>
@@ -44,7 +44,7 @@ function Home() {
                   </h5>
                 </div>
 
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <p>
                     Mauris neque quam, fermentum ut nisl vitae, convallis
                     maximus nisl. Sed mattis nunc id lorem euismod placerat.
@@ -54,15 +54,15 @@ function Home() {
                     porta lectus vitae, ultricies congue gravida diam non
                     fringilla.
                   </p>
-                  <div class="w3-row">
-                    <div class="w3-col m8 s12">
+                  <div className = {"div"} class="w3-row">
+                    <div className = {"div"} class="w3-col m8 s12">
                       <p>
                         <button class="w3-button w3-padding-large w3-white w3-border">
                           <b>READ MORE »</b>
                         </button>
                       </p>
                     </div>
-                    <div class="w3-col m4 w3-hide-small">
+                    <div className = {"div"} class="w3-col m4 w3-hide-small">
                       <p>
                         <span class="w3-padding-large w3-right">
                           <b>Comments  </b> <span class="w3-tag">0</span>
@@ -74,13 +74,13 @@ function Home() {
               </div>
               <hr />
 
-              <div class="w3-card-4 w3-margin w3-white">
+              <div className = {"div"} class="w3-card-4 w3-margin w3-white">
                 <img
                   src="/w3images/bridge.jpg"
                   alt="Norway"
                   style="width:100%"
                 />
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <h3>
                     <b>BLOG ENTRY</b>
                   </h3>
@@ -90,7 +90,7 @@ function Home() {
                   </h5>
                 </div>
 
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <p>
                     Mauris neque quam, fermentum ut nisl vitae, convallis
                     maximus nisl. Sed mattis nunc id lorem euismod placerat.
@@ -100,15 +100,15 @@ function Home() {
                     porta lectus vitae, ultricies congue gravida diam non
                     fringilla.
                   </p>
-                  <div class="w3-row">
-                    <div class="w3-col m8 s12">
+                  <div className = {"div"} class="w3-row">
+                    <div className = {"div"} class="w3-col m8 s12">
                       <p>
                         <button class="w3-button w3-padding-large w3-white w3-border">
                           <b>READ MORE »</b>
                         </button>
                       </p>
                     </div>
-                    <div class="w3-col m4 w3-hide-small">
+                    <div className = {"div"} class="w3-col m4 w3-hide-small">
                       <p>
                         <span class="w3-padding-large w3-right">
                           <b>Comments  </b> <span class="w3-badge">2</span>
@@ -119,13 +119,13 @@ function Home() {
                 </div>
               </div>
 
-              <div class="w3-card-4 w3-margin w3-white">
+              <div className = {"div"} class="w3-card-4 w3-margin w3-white">
                 <img
                   src="/w3images/bridge.jpg"
                   alt="Norway"
                   style="width:100%"
                 />
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <h3>
                     <b>BLOG ENTRY</b>
                   </h3>
@@ -135,7 +135,7 @@ function Home() {
                   </h5>
                 </div>
 
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <p>
                     Mauris neque quam, fermentum ut nisl vitae, convallis
                     maximus nisl. Sed mattis nunc id lorem euismod placerat.
@@ -145,15 +145,15 @@ function Home() {
                     porta lectus vitae, ultricies congue gravida diam non
                     fringilla.
                   </p>
-                  <div class="w3-row">
-                    <div class="w3-col m8 s12">
+                  <div className = {"div"} class="w3-row">
+                    <div className = {"div"} class="w3-col m8 s12">
                       <p>
                         <button class="w3-button w3-padding-large w3-white w3-border">
                           <b>READ MORE »</b>
                         </button>
                       </p>
                     </div>
-                    <div class="w3-col m4 w3-hide-small">
+                    <div className = {"div"} class="w3-col m4 w3-hide-small">
                       <p>
                         <span class="w3-padding-large w3-right">
                           <b>Comments  </b> <span class="w3-badge">2</span>
@@ -164,13 +164,13 @@ function Home() {
                 </div>
               </div>
 
-              <div class="w3-card-4 w3-margin w3-white">
+              <div className = {"div"} class="w3-card-4 w3-margin w3-white">
                 <img
                   src="/w3images/bridge.jpg"
                   alt="Norway"
                   style="width:100%"
                 />
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <h3>
                     <b>BLOG ENTRY</b>
                   </h3>
@@ -180,7 +180,7 @@ function Home() {
                   </h5>
                 </div>
 
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <p>
                     Mauris neque quam, fermentum ut nisl vitae, convallis
                     maximus nisl. Sed mattis nunc id lorem euismod placerat.
@@ -190,15 +190,15 @@ function Home() {
                     porta lectus vitae, ultricies congue gravida diam non
                     fringilla.
                   </p>
-                  <div class="w3-row">
-                    <div class="w3-col m8 s12">
+                  <div className = {"div"} class="w3-row">
+                    <div className = {"div"} class="w3-col m8 s12">
                       <p>
                         <button class="w3-button w3-padding-large w3-white w3-border">
                           <b>READ MORE »</b>
                         </button>
                       </p>
                     </div>
-                    <div class="w3-col m4 w3-hide-small">
+                    <div className = {"div"} class="w3-col m4 w3-hide-small">
                       <p>
                         <span class="w3-padding-large w3-right">
                           <b>Comments  </b> <span class="w3-badge">2</span>
@@ -209,13 +209,13 @@ function Home() {
                 </div>
               </div>
 
-              <div class="w3-card-4 w3-margin w3-white">
+              <div className = {"div"} class="w3-card-4 w3-margin w3-white">
                 <img
                   src="/w3images/bridge.jpg"
                   alt="Norway"
                   style="width:100%"
                 />
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <h3>
                     <b>BLOG ENTRY</b>
                   </h3>
@@ -225,7 +225,7 @@ function Home() {
                   </h5>
                 </div>
 
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <p>
                     Mauris neque quam, fermentum ut nisl vitae, convallis
                     maximus nisl. Sed mattis nunc id lorem euismod placerat.
@@ -235,15 +235,15 @@ function Home() {
                     porta lectus vitae, ultricies congue gravida diam non
                     fringilla.
                   </p>
-                  <div class="w3-row">
-                    <div class="w3-col m8 s12">
+                  <div className = {"div"} class="w3-row">
+                    <div className = {"div"} class="w3-col m8 s12">
                       <p>
                         <button class="w3-button w3-padding-large w3-white w3-border">
                           <b>READ MORE »</b>
                         </button>
                       </p>
                     </div>
-                    <div class="w3-col m4 w3-hide-small">
+                    <div className = {"div"} class="w3-col m4 w3-hide-small">
                       <p>
                         <span class="w3-padding-large w3-right">
                           <b>Comments  </b> <span class="w3-badge">2</span>
@@ -254,13 +254,13 @@ function Home() {
                 </div>
               </div>
 
-              <div class="w3-card-4 w3-margin w3-white">
+              <div className = {"div"} class="w3-card-4 w3-margin w3-white">
                 <img
                   src="/w3images/bridge.jpg"
                   alt="Norway"
                   style="width:100%"
                 />
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <h3>
                     <b>BLOG ENTRY</b>
                   </h3>
@@ -270,7 +270,7 @@ function Home() {
                   </h5>
                 </div>
 
-                <div class="w3-container">
+                <div className = {"div"} class="w3-container">
                   <p>
                     Mauris neque quam, fermentum ut nisl vitae, convallis
                     maximus nisl. Sed mattis nunc id lorem euismod placerat.
@@ -280,15 +280,15 @@ function Home() {
                     porta lectus vitae, ultricies congue gravida diam non
                     fringilla.
                   </p>
-                  <div class="w3-row">
-                    <div class="w3-col m8 s12">
+                  <div className = {"div"} class="w3-row">
+                    <div className = {"div"} class="w3-col m8 s12">
                       <p>
                         <button class="w3-button w3-padding-large w3-white w3-border">
                           <b>READ MORE »</b>
                         </button>
                       </p>
                     </div>
-                    <div class="w3-col m4 w3-hide-small">
+                    <div className = {"div"} class="w3-col m4 w3-hide-small">
                       <p>
                         <span class="w3-padding-large w3-right">
                           <b>Comments  </b> <span class="w3-badge">2</span>
@@ -300,10 +300,10 @@ function Home() {
               </div>
             </div>
 
-            <div class="w3-col l4">
-              <div class="w3-card w3-margin w3-margin-top">
+            <div className = {"div"} class="w3-col l4">
+              <div className = {"div"} class="w3-card w3-margin w3-margin-top">
                 <img src="/w3images/avatar_g.jpg" style="width:100%" />
-                <div class="w3-container w3-white">
+                <div className = {"div"} class="w3-container w3-white">
                   <h4>
                     <b>My Name</b>
                   </h4>
@@ -316,8 +316,8 @@ function Home() {
               </div>
               <hr />
 
-              <div class="w3-card w3-margin">
-                <div class="w3-container w3-padding">
+              <div className = {"div"} class="w3-card w3-margin">
+                <div className = {"div"} class="w3-container w3-padding">
                   <h4>Tópicos Importantes</h4>
                 </div>
                 <ul class="w3-ul w3-hoverable w3-white">
